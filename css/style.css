@@ -1,3 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 body {
     margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+
+    text-align: center;
+    background-image: url(../img/coffee-bgnd.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 388px;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+h1 {
+    font-size: 78px;
+    color: #69996b;
+}
+
+.main {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
