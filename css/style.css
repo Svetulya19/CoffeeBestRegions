@@ -1,41 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Covered+By+Your+Grace&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-body {
+* {
     margin: 0;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
     background-color: rgb(255, 255, 255);
 }
 
 .header {
-
-
     background-image: url(../img/coffee-bgnd.jpeg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 388px;
-
 }
 
-h1 {
+.header > h1 {
     font-size: 78px;
     font-family: 'Covered By Your Grace', cursive;
     text-align: center;
-    color: #69996b;
+    color: #2b1810bf;
+    padding-top: 130px;
 }
 
-.main {
+
+.main > table {
+    padding: 0;
     font-family: 'Nunito Sans', sans-serif;
 }
 
-h2 {
-    margin-top: 0;
-    margin-bottom: 0;
+.main td {
+    color: black;
+    font-weight: 500;
+    padding: 0 10px;
+    text-align: justify;
+    text-indent: 32px;
+    line-height: 1.5;
+    background-image: url(../img/360_F_22876485_Kxz4K6F6blQKxdRSEUqsJey491HEqGC1.jpg) ;
+    opacity: 0.8;
 }
 
-p {
-    margin-top: 0;
-    margin-bottom: 0;
+.main td > h2 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: rgb(188 170 164 / 90);
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
 }
+
+
+.main td > p {
+    font-weight: 900;
+}
+
+.main td > a {
+    color: #445544;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+
+/*h2 {*/
+/*    margin-top: 0;*/
+/*    margin-bottom: 0;*/
+/*}*/
+
+/*p {*/
+/*    margin-top: 0;*/
+/*    margin-bottom: 0;*/
+/*}*/
 
 /*
 HW_06_TEXT
