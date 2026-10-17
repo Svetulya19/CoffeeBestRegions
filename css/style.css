@@ -26,45 +26,45 @@ body {
 }
 
 
-.main > table {
-    padding: 0;
-    font-family: 'Nunito Sans', sans-serif;
-}
+/*.main > table {*/
+/*    padding: 0;*/
+/*    font-family: 'Nunito Sans', sans-serif;*/
+/*}*/
 
-.main td {
-    color: black;
-    font-weight: 500;
-    padding: 0 10px;
-    text-align: justify;
-    text-indent: 32px;
-    line-height: 1.5;
-    background-image: url(../img/360_F_22876485_Kxz4K6F6blQKxdRSEUqsJey491HEqGC1.jpg) ;
-    opacity: 0.8;
-}
+/*.main td {*/
+/*    color: black;*/
+/*    font-weight: 500;*/
+/*    padding: 0 10px;*/
+/*    text-align: justify;*/
+/*    text-indent: 32px;*/
+/*    line-height: 1.5;*/
+/*    background-image: url(../img/360_F_22876485_Kxz4K6F6blQKxdRSEUqsJey491HEqGC1.jpg) ;*/
+/*    opacity: 0.8;*/
+/*}*/
 
-.main td > h2 {
-    font-family: 'Cedarville Cursive', cursive;
-    font-size: 32px;
-    font-weight: 700;
-    background-color: rgb(188 170 164 / 90);
-    padding-bottom: 10px;
-    text-align: center;
-    text-transform: uppercase;
-}
+/*.main td > h2 {*/
+/*    font-family: 'Cedarville Cursive', cursive;*/
+/*    font-size: 32px;*/
+/*    font-weight: 700;*/
+/*    background-color: rgb(188 170 164 / 90);*/
+/*    padding-bottom: 10px;*/
+/*    text-align: center;*/
+/*    text-transform: uppercase;*/
+/*}*/
 
 
-.main td > p {
-    font-weight: 900;
-}
+/*.main td > p {*/
+/*    font-weight: 900;*/
+/*}*/
 
-.main td > a {
-    color: #445544;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
+/*.main td > a {*/
+/*    color: #445544;*/
+/*    font-weight: 600;*/
+/*    text-transform: uppercase;*/
+/*    text-decoration: none;*/
+/*    letter-spacing: 2px;*/
 
-}
+/*}*/
 
 /*h2 {*/
 /*    margin-top: 0;*/
