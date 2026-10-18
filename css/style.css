@@ -9,7 +9,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.header {
+header {
     background-image: url(../img/coffee-bgnd.jpeg);
     background-size: cover;
     background-position: center;
@@ -17,15 +17,35 @@ body {
     height: 388px;
 }
 
-.header > h1 {
+header > h1 {
     font-size: 78px;
     font-family: 'Covered By Your Grace', cursive;
     text-align: center;
     color: #2b1810bf;
-    padding-top: 130px;
+    padding-top: 100px;
 }
 
+main {
+    position: relative;
+}
 
+.left {
+    margin-left: 10px;
+    left: 0;
+    position: absolute;
+    width: 49%;
+}
+
+.right {
+    margin-left: 10px;
+    right: 0;
+    position: absolute;
+    width: 49%;
+}
+
+h2 {
+    text-align: center;
+}
 /*.main > table {*/
 /*    padding: 0;*/
 /*    font-family: 'Nunito Sans', sans-serif;*/
