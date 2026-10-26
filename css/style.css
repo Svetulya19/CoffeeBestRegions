@@ -3,6 +3,7 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Nunito Sans', sans-serif;
@@ -29,22 +30,55 @@ main {
     position: relative;
 }
 
-.left {
-    margin-left: 10px;
-    left: 0;
-    position: absolute;
+.left >div, .right > div {
+    margin: 20px;
+    border-bottom: 1px solid #e4bb97;
+    padding-bottom: 60px;
+    height: 100px;
+    overflow-y: auto;
+}
+
+main div > h2 {
+    font-size: 28px;
+    font-weight: 700;
+    background-color: #aa8eb8;
+    text-align: center;
+    color: #2b1810bf;
+    text-transform: uppercase;
+}
+
+main div > p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #454;
+    padding: 0 5px;
+    text-align: justify;
+    text-indent: 32px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+main div > a {
+
+    color: #214e34;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.left, .right {
     width: 49%;
+    position: absolute;
+    top: 0;
+}
+
+.left {
+    left: 0;
 }
 
 .right {
-    margin-left: 10px;
     right: 0;
-    position: absolute;
-    width: 49%;
-}
-
-h2 {
-    text-align: center;
 }
 /*.main > table {*/
 /*    padding: 0;*/
